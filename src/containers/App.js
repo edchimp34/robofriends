@@ -31,9 +31,6 @@ class App extends Component {
             return robot.name.toLowerCase().includes(searchfield.toLowerCase());
         });
         
-        if (true) {
-            throw new Error("Noooooo!");
-        }
         return (!robots.length) ? 
             <h1>Loading</h1> :
             (
